@@ -30,14 +30,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
-          plugin_chess: yes
-          plugin_chess_animation: {
-  "size": 40,
-  "delay": 3,
-  "duration": 0.6
-}
-
-          plugin_chess_user: .user.login
           plugin_discussions: yes
           plugin_discussions_categories: yes
           plugin_habits: yes
